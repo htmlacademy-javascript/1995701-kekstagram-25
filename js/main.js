@@ -11,7 +11,7 @@ const getRandomInteger = (min, max) => {
 
 console.log(returnNumber (0, 10));
 
-const сheckStringLenght = ( inputText, maxlenght) => {
+const сheckStringLenght = (inputText, maxlenght) => {
 return inputText.length <= maxlenght
 console.log(leightString ('комментарииииииииииииииии',40));
 console.log(leightString ('комментарииииииииииииииии',10));
