@@ -1,8 +1,8 @@
-const returnNumber = function getRandomIntInclusive(min, max) {
+const getRandomInteger = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
   if (min>=max){
-    return false};
+    return false;}
 
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
@@ -11,11 +11,7 @@ const returnNumber = function getRandomIntInclusive(min, max) {
 
 console.log(returnNumber (0, 10));
 
-const leightString = function сheckStringLenght ( inputText, maxlenght){
-if(inputText.length > maxlenght){
-  return false;
-};
-return true;
-};
+const сheckStringLenght = ( inputText, maxlenght) => {
+return inputText.length <= maxlenght
 console.log(leightString ('комментарииииииииииииииии',40));
 console.log(leightString ('комментарииииииииииииииии',10));
